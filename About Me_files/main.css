@@ -7,6 +7,8 @@ body:after{
 body{
 	background: cyan;
 	color: black;
+	font-size: 28;
+	font-style: bold;
 	text-align: center;
 }
 
