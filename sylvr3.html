@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>About Me</title>
+	<!-- google fonts -->
+	<link href="./About Me_files/css" rel="stylesheet">
+
+</head>
+<body>
+	<h1 onclick="myNameReset();" id="myName">Sylvia Barnai</h1>
+	<span id="underName">Software Engineering Instructor</span>
+
+	<div id="mainHeaders">
+	<!-- 3 tab/button selection -->
+		<h2 onclick="activate(this)">About Me</h2>
+		<h2 onclick="activate(this)">Technical Skills</h2>
+		<h2 onclick="activate(this)">Contact Info</h2>
+	</div>
+
+	<div id="highlightLine"></div>
+	<div id="midPics">
+		<!-- 3 blocks of pics -->
+		<img class="mainPic altOff" src="./About Me_files/person2.jpg" alt="">
+		<img class="mainPic" src="./About Me_files/person1.jpg" alt="">
+		<img class="mainPic altOff" src="./About Me_files/sylvia_3.png" alt="">
+
+		<img class="aboutMePic turnOff" src="./About Me_files/animal1.jpg" alt="">
+		<img class="aboutMePic turnOff altOff" src="./About Me_files/animal2.jpg" alt="">
+		<img class="aboutMePic turnOff altOff" src="./About Me_files/animal3.jpg" alt="">
+
+		<img class="eduPic turnOff" src="./About Me_files/thing1.jpg" alt="">
+		<img class="eduPic turnOff altOff" src="./About Me_files/thing2.jpg" alt="">
+
+		<img class="workPic turnOff" src="./About Me_files/thing3.jpg" alt="">
+		<img class="workPic turnOff  altOff" src="./About Me_files/person4.jpg" alt="">
+		<img class="workPic turnOff  altOff" src="./About Me_files/background1.jpg" alt="">
+
+		<img class="funPic turnOff" src="./About Me_files/background2.jpg" alt="">
+		<img class="funPic turnOff altOff" src="./About Me_files/background3.jpg" alt="">
+		<img class="funPic turnOff altOff" src="./About Me_files/animal2.jpg" alt="">
+
+		<img class="futurePic turnOff" src="./About Me_files/programmer_girl.png" alt="">
+
+		<img class="techPic turnOff" src="./About Me_files/background1.jpg" alt="">
+		
+		<img class="contactPic turnOff" src="./About Me_files/sylvia_3.png" alt="">
+
+	</div>
+	<div id="highlightLine"></div>
+
+	<div id="mainContent">
+		<!-- content by ID and sub headers -->
+		<div id="subHeadersOuter">
+			<div id="subHeadersInner">
+				<h3 onclick="activate(this)">Education</h3>
+				<h3 onclick="activate(this)">Work Experience</h3>
+				<h3 onclick="activate(this)">What I do for Fun!</h3>
+				<h3 onclick="activate(this)">Future Plans</h3>
+			</div>
+		<div id="highlightLine"></div>
+		</div>
+
+		<p id="edu" class="turnOn">My name is Sylvia Barnai and I am pursuing my Masters in Software Engineering. I am very passionate about teaching computer science courses to students.</p>
+
+		<article id="work">
+			<h2><a href="https://shaddyjr.github.io/testWebsite/#" target="_blank">Lorem</a></h2>
+			<p>Since 2015, I have taught Java and Python classes at Arizona State University. I also took some courses in web design during my undergradaute career. 
+			I enjoy making eye-catching websites and have extensive experience in JavaScript, HTML, and CSS.
+			</p><p>I believe in the importance of a high-quality education and I strive to make computer science classes available and enjoyable for students from all socioeconomic backgrounds.</p>
+			<p>I am committed to the success of each student.</p>
+		</article>
+
+		<p id="fun">In my spare time, I enjoy hiking, reading, attending concerts, and trying out different restaurants.</p>
+
+		<article id="future">
+			<p>I aspire to be an instructor teaching computer science courses.</p>
+			<p>I can see myself being a successful teacher, teaching grades K-12 or at a community college or university.</p>
+			<p>I like being able to instill my passion for programming into other students.</p>
+		</article>
+		
+		<div id="techSkills">
+		<ul>
+			<li>
+				<img class="skillImg" src="./About Me_files/JS.png" alt="">
+				<div class="fill">
+						<span class="number">90%</span>
+				</div>
+				<span class="skills">Javascript</span>
+			</li>
+			<li>
+				<img class="skillImg" src="./About Me_files/R.png" alt="">
+				<div class="fill">
+						<span class="number">70%</span>
+				</div>
+				<span class="skills">R</span>
+			</li>
+
+			<li>
+				<img class="skillImg" src="./About Me_files/python.png" alt="">
+				<div class="fill">
+					<span class="number">75%</span>
+				</div>
+				<span class="skills">Python 2.7</span>
+			</li>	
+			
+			<li>
+				<img class="skillImg" src="./About Me_files/html.png" alt="">
+				<div class="fill">
+						<span class="number">85%</span>
+				</div>
+				<span class="skills">HTML/CSS</span>
+			</li>
+			<li>
+				<img class="skillImg" src="./About Me_files/SQ.png" alt="">
+				<div class="fill">
+						<span class="number">95%</span>
+				</div>
+				<span class="skills">SQLite</span>
+			</li>	
+			<li>
+				<img class="skillImg" src="./About Me_files/Ruby.png" alt="">
+				<div class="fill">
+						<span class="number">50%</span>
+				</div>
+				<span class="skills">Ruby</span>
+			</li>
+			<li>
+				<img class="skillImg" src="./About Me_files/C.png" alt="">
+				<div class="fill">
+						<span class="number">Java</span>
+				</div>
+
+				<li>
+				<img class="skillImg" src="./About Me_files/C.png" alt="">
+				<div class="fill">
+						<span class="number">Objective-C</span>
+				</div>
+
+				<span class="skills">C</span>
+			</li>
+		</ul>
+		<button id="toggle" onclick="allChangeAll()">Toggle</button>
+		</div>
+
+		<article id="contact">
+			<div>	
+				<p>Phone: 480-917-5826</p>
+				<p><a href="https://shaddyjr.github.io/testWebsite/#">e-mail: sbarnai@asu.edu</a></p>
+				<a style="display:inline-block;" href="https://sylvr3.github.io/testWebsite/#" target="_blank"><img src="./About Me_files/github.png" alt=""></a>
+				<a style="display:inline-block;" href="https://www.linkedin.com/in/sylviabarnai" target="_blank"><img src="./About Me_files/linked.png" alt=""></a>
+			</div>
+		</article>
+	</div>
+		
+	<!-- references -->
+	<link rel="stylesheet" href="./About Me_files/main.css">
+	<script src="./About Me_files/main.js.download"></script>
+
+
+</body></html>
