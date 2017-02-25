@@ -59,23 +59,15 @@ a{
     background-repeat: no-repeat;}
 }
 
-/*
-font-family: 'Autour One', cursive;
-font-family: 'Yellowtail', cursive;
-font-family: 'Righteous', cursive;
-font-family: 'Permanent Marker', cursive;
-font-family: 'Arima Madurai', cursive;
-*/
-
 #myName{
-	font-family: 'Arial', cursive;
+	font-family: 'Arial';
 	font-size: 50px;
 	margin-bottom: 20px;
 	cursor: pointer;
 }
 
 #underName{
-	font-family: 'Academic M54', cursive;
+	font-family: 'Academic M54';
 	font-size: 16px;
 	display: inline-block;
 	margin-bottom: 10px;
@@ -95,11 +87,8 @@ font-family: 'Arima Madurai', cursive;
 	display: inline;
 	margin: 40px;
 	padding: 0 10px 0 10px;
-	font-family: 'Helvetica', cursive;
-	border: 2px solid #921212;
-	background:-webkit-linear-gradient(60deg ,#AD1100, #990061);
-	border-radius:15px;
-	text-shadow: -2px 0 black;
+	font-family: 'Helvetica';
+	border: 2px solid #800000;
 	cursor: pointer;
 }
 
