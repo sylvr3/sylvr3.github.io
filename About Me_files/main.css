@@ -1,5 +1,4 @@
 
-/*preloading*/
 body:after{
     position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
     content: url("assets/Picture1.jpg") url("assets/Picture2.jpg") url("assets/Picture3.jpg") url("assets/Picture4.jpg") url("assets/Picture5.jpg");
@@ -7,7 +6,7 @@ body:after{
 
 body{
 	background: cyan;
-	color: darkblue;
+	color: #00008B;
 	text-align: center;
 }
 
